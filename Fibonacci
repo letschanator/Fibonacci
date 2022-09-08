@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+	int i,n=10;
+	int numb =0, num2 = 1;
+	for(i = 1;i<=n;i++){
+		int temp = num2;
+		printf("%d\n",numb);
+		num2 += numb;
+		numb = temp;
+	}
+	return 0;
+
+}
+
+
